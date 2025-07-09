@@ -1,7 +1,7 @@
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-white py-8">
+    <footer className="bg-black text-white py-8 border-t border-gray-800">
       <div className="max-w-4xl mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div>
@@ -11,7 +11,7 @@ const Footer = () => {
             </p>
           </div>
           <div>
-            <h4 className="font-semibold mb-2">Platform</h4>
+            <h4 className="font-semibold mb-2 text-white">Platform</h4>
             <ul className="space-y-1 text-sm text-gray-400">
               <li><a href="#" className="hover:text-white">Find Helpers</a></li>
               <li><a href="#" className="hover:text-white">Become Helper</a></li>
@@ -19,7 +19,7 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <h4 className="font-semibold mb-2">Support</h4>
+            <h4 className="font-semibold mb-2 text-white">Support</h4>
             <ul className="space-y-1 text-sm text-gray-400">
               <li><a href="#" className="hover:text-white">Help Center</a></li>
               <li><a href="#" className="hover:text-white">Contact Us</a></li>
@@ -27,7 +27,7 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div className="border-t border-gray-700 mt-6 pt-4 text-center text-sm text-gray-400">
+        <div className="border-t border-gray-800 mt-6 pt-4 text-center text-sm text-gray-400">
           <p>&copy; 2024 Consultलो. Made by students, for students.</p>
         </div>
       </div>

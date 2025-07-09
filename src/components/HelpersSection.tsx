@@ -93,13 +93,13 @@ const helpers = [
 
 const HelpersSection = () => {
   return (
-    <section className="py-12 bg-gray-50">
+    <section className="py-12 bg-black">
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-10">
-          <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-2">
+          <h2 className="text-2xl md:text-3xl font-bold text-white mb-2">
             Meet Your Helpers
           </h2>
-          <p className="text-gray-600">
+          <p className="text-gray-300">
             Friendly seniors ready to help you succeed
           </p>
         </div>
@@ -111,7 +111,7 @@ const HelpersSection = () => {
         </div>
         
         <div className="text-center mt-8">
-          <Button variant="outline">
+          <Button variant="outline" className="text-white border-white hover:bg-white hover:text-black">
             See All Helpers
             <ChevronRight className="ml-2 h-4 w-4" />
           </Button>
