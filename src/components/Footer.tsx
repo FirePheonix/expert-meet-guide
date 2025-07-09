@@ -5,7 +5,7 @@ const Footer = () => {
       <div className="max-w-4xl mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div>
-            <h3 className="text-lg font-bold text-blue-400 mb-2">StudyBuddy</h3>
+            <h3 className="text-lg font-bold text-blue-400 mb-2">Consultलो</h3>
             <p className="text-sm text-gray-400">
               Connecting college students with peer mentors for academic success.
             </p>
@@ -28,7 +28,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="border-t border-gray-700 mt-6 pt-4 text-center text-sm text-gray-400">
-          <p>&copy; 2024 StudyBuddy. Made by students, for students.</p>
+          <p>&copy; 2024 Consultलो. Made by students, for students.</p>
         </div>
       </div>
     </footer>
