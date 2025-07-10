@@ -1,3 +1,9 @@
+Hackortbit notes:
+Simply used lovable.dev to generate a frontend landing page. A simpe page for showing that this product is Planned and to be coming soon.
+
+
+
+
 # Welcome to your Lovable project
 
 ## Project info
